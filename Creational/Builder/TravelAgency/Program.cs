@@ -93,9 +93,9 @@
         }
     }
 
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var travelAgent = new TravelAgent();
             HolidayPackageBuilder packageBuilder = new CustomHolidayPackageBuilder();

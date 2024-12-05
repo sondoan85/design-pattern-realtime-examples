@@ -81,9 +81,9 @@
         }
     }
 
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Using MP3 & MP4 formats:");
             var mp3mp4Factory = new MP3MP4Factory();

@@ -1,5 +1,20 @@
 ﻿namespace BankingSystem
 {
+    public static class B
+    {
+        public static int StringLength(this string message)
+        {
+            if (string.IsNullOrEmpty(message))
+            {
+                return 0;
+            }
+            else
+            {
+                return message.Length;
+            }
+        }
+    }
+
     public class Program
     {
         //Command Interface

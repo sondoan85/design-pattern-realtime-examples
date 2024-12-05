@@ -26,9 +26,9 @@
         public static LoadBalancer Instance => _instance.Value;
     }
 
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // Usage:
             // Get the next server to handle a client request

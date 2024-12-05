@@ -2,7 +2,7 @@
 
 namespace PaymentGatewaysEcommerce
 {
-    internal class Program
+    public class Program
     {
         public interface IPaymentAuthorization
         {
@@ -93,7 +93,7 @@ namespace PaymentGatewaysEcommerce
             }
         }
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Console.WriteLine("Processing payment using Credit Card:");
             var creditCardFactory = new CreditCardPaymentFactory();

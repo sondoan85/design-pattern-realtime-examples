@@ -24,12 +24,12 @@
         }
     }
 
-    internal class Program
+    public class Program
     {
         private static DocumentState currentDocument = new DocumentState();
         private static Stack<DocumentState> history = new Stack<DocumentState>();
 
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             Stack<DocumentState> history = new Stack<DocumentState>();
             // Initial document state

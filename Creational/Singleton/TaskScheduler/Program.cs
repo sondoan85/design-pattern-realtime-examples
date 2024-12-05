@@ -36,9 +36,9 @@
         public static TaskScheduler Instance => _instance;
     }
 
-    internal class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             // Schedule a task to run every 5 seconds
             TaskScheduler.Instance.ScheduleTask("SampleTask", () => Console.WriteLine("Task executed!"), 5000);
