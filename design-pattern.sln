@@ -87,7 +87,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ATM-Machine", "Behavioral\S
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OrderProcessingSystem", "Behavioral\State\OrderProcessingSystem\OrderProcessingSystem.csproj", "{057001DA-8FD5-4076-8562-A41940D3B26E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSynchronizationBetweenSourceAndDestination", "Behavioral\Template Method\DataSynchronizationBetweenSourceAndDestination\DataSynchronizationBetweenSourceAndDestination.csproj", "{2E1C72D0-EC02-4B99-90BE-EFE0509E953B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataSynchronization", "Behavioral\Template Method\DataSynchronization\DataSynchronization.csproj", "{2E1C72D0-EC02-4B99-90BE-EFE0509E953B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CI-CD-PipelineExecution", "Behavioral\Template Method\CI-CD-PipelineExecution\CI-CD-PipelineExecution.csproj", "{A1A83B59-B372-401E-9953-E03A5381EDC5}"
 EndProject
